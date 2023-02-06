@@ -19,3 +19,4 @@ if __name__ == "__main__":
             print("hasil adalah : {}".format(h.tambah()) )
     except:
         print("data ada yang salah")
+# selesai
