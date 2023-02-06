@@ -10,3 +10,5 @@ class hitung:
         return self.a - self.b
     def kali(self):
         return self.a * self.b
+    def bagi(self):
+        return self.a / self.b
