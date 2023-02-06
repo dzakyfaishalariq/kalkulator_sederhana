@@ -6,4 +6,5 @@ class hitung:
         self.opr = opr
     def tambah(self):
         return self.a + self.b
-        
+    def kurang(self):
+        return self.a - self.b
