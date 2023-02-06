@@ -13,10 +13,16 @@ if __name__ == "__main__":
         print("pilih opr ")
         print("-> +")
         print("-> -")
+        print("-> *")
         opr = input("Masukan opr : ")
         h = hitung(a,b,opr)
         if h.opr == "+" :
             print("hasil adalah : {}".format(h.tambah()) )
+        elif h.opr == "-" :
+            print("hasil adalah : {}".format(h.kurang()) )
+        elif h.opr == "*":
+            print("hasil adalah : {}".format(h.kali()) )
+            
     except:
         print("data ada yang salah")
 # selesai
