@@ -12,3 +12,6 @@ class hitung:
         return self.a * self.b
     def bagi(self):
         return self.a / self.b
+    def modulus(self):
+        return self.a % self.b
+    
